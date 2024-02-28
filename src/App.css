@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+.nav-links{
+  border-radius: 50px;
+  transition: all .3s;
+  padding: 5px 10px;
+}
+.nav-links:hover{
+  background-color: #e8e8e887;
 }
 
-.App-logo {
-  height: 40vmin;
+.main-div {
+  background-image: url("https://10web-site.ai/69/wp-content/uploads/sites/82/2024/02/recycled-shoe-store-hero-image-bg_G7Xp7ghT.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-home-p {
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.cursor,
+.cursor2,
+.cursor3,
+.cursor4,
+.cursor5,
+.cursor6 {
+  position: absolute;
+  mix-blend-mode: multiply;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
   pointer-events: none;
+  transition: transform 0.2s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-home-head {
+  padding: 20px 0px;
+  border-radius: 100px;
+  border: 2px solid rgba(0, 0, 0);
+  transition: all .2s;
+}
+
+.main-home-head:hover {
+  background-color: rgba(255, 255, 255, 0.645);
+  cursor: pointer;
+  border-color: white;
+}
+
+.main-home-head:hover {
+  .cursor {
+    transform: scale(8);
+    opacity: 1;
+    mix-blend-mode: difference;
+  }
+
+}
+
+.main-get-started-home:hover {
+  .cursor2 {
+    opacity: 1;
+    transform: scale(6);
+    mix-blend-mode: difference;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.company-sec:hover {
+  .cursor3 {
+    opacity: 1;
+    transform: scale(6);
+    mix-blend-mode: difference;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.faq-sec1:hover {
+  .cursor5 {
+    /* opacity: 1; */
+    transform: scale(10);
+    mix-blend-mode: difference;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.about-cursor:hover {
+  .cursor4 {
+    opacity: 1;
+    transform: scale(10);
+    mix-blend-mode: difference;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.hero-btm-sec:hover {
+  .cursor6 {
+    opacity: 1;
+    transform: scale(8);
+    mix-blend-mode: difference;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.abt-img1{
+  transition: all .2s;
+  background: linear-gradient(#c6c6c6,#c6c6c6 , transparent) ;
+  border-radius: 25px;
+}
+
+.abt-img1:hover{
+  transform: scale(1.3);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0);
+}
+.faq-sec{
+  background: linear-gradient(#c6c6c6,#dedede);
+  /* z-index: 9; */
+}
+.hero-btm{
+  background-image: url("./pages/components/images/hero-btm-bg.jpg");
+  background-position: center;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px) !important;
+  height: 70vh;
 }
