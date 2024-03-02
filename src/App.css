@@ -55,6 +55,7 @@
     transform: scale(8);
     opacity: 1;
     mix-blend-mode: difference;
+    transition-duration: 0.0s;
   }
 
 }
@@ -64,6 +65,7 @@
     opacity: 1;
     transform: scale(6);
     mix-blend-mode: difference;
+    transition-duration: 0.0s;
   }
 }
 
@@ -72,6 +74,7 @@
     opacity: 1;
     transform: scale(6);
     mix-blend-mode: difference;
+    transition-duration: 0.0s;
   }
 }
 
@@ -80,6 +83,7 @@
     /* opacity: 1; */
     transform: scale(10);
     mix-blend-mode: difference;
+    transition-duration: 0.0s;
   }
 }
 
@@ -88,6 +92,7 @@
     opacity: 1;
     transform: scale(10);
     mix-blend-mode: difference;
+    transition-duration: 0.0s;
   }
 }
 
@@ -96,6 +101,7 @@
     opacity: 1;
     transform: scale(8);
     mix-blend-mode: difference;
+    transition-duration: 0.0s;
   }
 }
 
@@ -103,6 +109,16 @@
 
 
 
+.cursor,
+.cursor2,
+.cursor3,
+.cursor4,
+.cursor5,
+.cursor6 {
+  position: absolute;
+  mix-blend-mode: multiply;
+  transition: all .2s ease;
+}
 
 
 
